@@ -29,7 +29,13 @@ public class Main {
 		System.out.println("f="+f);
 		System.out.println("d="+d);
 		
-		
+		byte b1 = 1;
+		int i1 =100;
+		i1 = b1;
+		short s1 = 2;
+		b1 = (byte)s1;
+		System.out.println(i1);
+		System.out.print("안 \b\t녕하세요? \0");
 	}
 
 }
