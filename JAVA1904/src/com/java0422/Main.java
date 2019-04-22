@@ -22,6 +22,14 @@ public class Main {
 		
 		결과값 = 정수+정수+정수+문자열;
 		System.out.println(결과값);
+		
+		float f = 0.1f;
+		double d = 10.5;
+		
+		System.out.println("f="+f);
+		System.out.println("d="+d);
+		
+		
 	}
 
 }
