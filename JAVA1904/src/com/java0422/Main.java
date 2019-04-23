@@ -1,5 +1,7 @@
 package com.java0422;
 
+import com.java0423.Var;
+
 public class Main {
 
 	public  void main(String[] args) {
@@ -35,7 +37,11 @@ public class Main {
 		short s1 = 2;
 		b1 = (byte)s1;
 		System.out.println(i1);
-		System.out.print("안 \b\t녕하세요? \0");
+		System.out.println("안 \b\t녕하세요? \0");
+		
+		Var v = new Var();
+		int s = v.state1;
+		System.out.println(s);
 	}
 
 }
