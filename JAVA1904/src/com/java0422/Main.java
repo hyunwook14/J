@@ -2,7 +2,7 @@ package com.java0422;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public  void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("변수시작");
 		String 문자열 ="Hello World"; //선언과 대입 한번에 이루어진다.
